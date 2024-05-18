@@ -6,8 +6,6 @@ void setup() {
 }
 
 void loop() {
-    strip.entreelichtAan(); 
-    delay(5000);
     for(int i = 0; i < 3; i++){
       strip.brandlichtAan();
       }
